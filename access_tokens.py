@@ -17,6 +17,6 @@ def generate_access_token():
     #Accessing the Header JSON element from the Dictionary 
     my_access_token = json_response['access_token']
 
-    return my_access_token
+    print(my_access_token)
 
 generate_access_token()
