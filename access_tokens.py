@@ -3,6 +3,7 @@ from requests.auth import HTTPBasicAuth
 
 import keys
 
+# This is application initiated and is done online only.
 
 def generate_access_token():
     #Generating My Access Token 
