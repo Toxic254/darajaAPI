@@ -5,6 +5,8 @@ from access_tokens import generate_access_token
 from keys import short_code
 from keys import test_msisdn 
 
+# This code runs offline and is client initiated. We need 2 URL's.
+
 def register_url():
     access_token = generate_access_token()
     api_url = "https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl"
